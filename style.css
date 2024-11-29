@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    background-color: rgb(230, 226, 222);
+}
+
+h1{
+    font-family:  Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkred;
+    padding: 50px;
+}
+
+#div1{
+    padding: 55px;
+    background-color: rgb(236, 239, 239);
+    width: 900px;
+    height: 2000px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items:start;
+    align-content: start;
+      
+}
+
+p{
+    width: 300px; 
+}
+
+.classul{
+    width: 900px;
+    height: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+
+}
+
+li{
+    width: 300px; 
+}
